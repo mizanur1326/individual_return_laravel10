@@ -391,9 +391,9 @@
 
     {{-- Fourth Page Start --}}
     <div class="w-[795px] h-[1123px] mx-auto bg-red-300">
-        <div class="mx-8 flex flex-col gap-4 p-8 border border-2 border-black">
+        <div class="mx-8 flex flex-col gap-4 border border-2 border-black">
             <div>
-                <p class="font-bold text-center">Schedule 1</p>
+                <p class="font-bold text-center underline">Schedule 1</p>
                 <p class="font-medium text-center">Particulars of Income from Employment</p>
                 <p class="font-medium">a. This part is applicable for employees receiving salary under government pay scale.</p>
             </div>
@@ -650,6 +650,561 @@
         </div>
     </div>
     {{-- Fourth Page End --}}
+    
+
+    {{-- Fifth Page Start --}}
+    <div class="w-[795px] h-[1123px] mx-auto bg-purple-300">
+        <div class="mx-8 flex flex-col gap-4 p-8 border border-2 border-black">
+            <div>
+                <p class="font-bold text-center underline">Schedule 2</p>
+                <p class="font-medium text-center">(Particulars of Income from Rent)</p>
+            </div>
+            <div class="flex justify-between items-center gap-2 mx-auto">
+                <span class="font-semibold">Name of the Taxpayer: .......................................</span>
+                <span>TIN:</span>
+                <table class="table-fixed border-collapse border border-black">
+                    <tr>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black text-center">-</td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black text-center">-</td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Table for Govt. Employees -->
+            <div>
+                <table class="w-full border-collapse border border-black text-xs font-medium">
+                    <thead>
+                        <th class="border border-black px-2 py-1 max-w-40">Location, description and ownership proportion of property</th>
+                        <th class="border border-black px-2 py-1 max-w-28">Total Rental Income Computation</th>
+                        <th class="border border-black px-2 py-1 max-w-28">Amount (Taka)</th>
+                        <th class="border border-black px-2 py-1 max-w-28">Amount (Taka)</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1">1. Rent Received or Annual Value (whichever is higher)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1">2. Advance Rent Received</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1">3. Value of any Benefit in addition to 1 & 2</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1">4. Adjusted Advance Rent</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1">5. Vacancy Allowance</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1" colspan="2">6. Total Rental Value (1 + 2 + 3 – 4 – 5)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1" colspan="2">7. Allowable Deduction: </td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1 pl-8">(a) Repair, Collection etc.</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            {{-- <td class="border border-black px-2 py-1"></td> --}}
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1 pl-8">(b) Municipal or Local Tax</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            {{-- <td class="border border-black px-2 py-1"></td> --}}
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1 pl-8">(c) Land Revenue</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            {{-- <td class="border border-black px-2 py-1"></td> --}}
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1 pl-8">(d) Interest Paid on Loan / Mortgage / Capital Charge</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            {{-- <td class="border border-black px-2 py-1"></td> --}}
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1 pl-8">(e) Insurance Premium Paid</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            {{-- <td class="border border-black px-2 py-1"></td> --}}
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1 pl-8">(f) Others, if any</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            {{-- <td class="border border-black px-2 py-1"></td> --}}
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"  colspan="2">8. Total Admissible Deduction</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            {{-- <td class="border border-black px-2 py-1"></td> --}}
+                        </tr> 
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"  colspan="2">9. Net Income (6 – 8)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            {{-- <td class="border border-black px-2 py-1"></td> --}}
+                        </tr> 
+                        <tr>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"  colspan="2">10. Taxpayer’s Share, if applicable</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            {{-- <td class="border border-black px-2 py-1"></td> --}}
+                        </tr> 
+                    </tbody>
+                </table>
+            </div>
+
+           
+            <div>
+                <p class="font-semibold text-center underline">Schedule 3</p>
+                <p class="font-medium text-center">(Particulars of Income from Agriculture)</p>
+            </div>
+            <div class="flex justify-between items-center gap-2 mx-auto">
+                <span class="font-semibold">Name of the Taxpayer: .......................................</span>
+                <span>TIN:</span>
+                <table class="table-fixed border-collapse border border-black">
+                    <tr>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black text-center">-</td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black text-center">-</td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                    </tr>
+                </table>
+            </div>
+
+            {{-- Summury of Agricultural income --}}
+            <div>
+                <div class="flex justify-between font-semibold">
+                    <div>
+                        <p>Nature of Agriculture:</p>
+                    </div>                    
+                </div>
+                <table class="w-full border-collapse border border-black text-xs font-medium">
+                    <thead >
+                        <th class="border border-black px-2 py-1">Summary of Income</th>
+                        <th class="border border-black px-2 py-1">Amount in Taka</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-black px-2 py-1">1. Sales / Turnover  / Receipt</td>
+                            <td class="border border-black px-2 py-1 min-w-72"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">2. Gross Profit</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">3. General Expenses, Selling Expenses, Land Revenue, Rates, Loan Interest, Insurance Premium and Other Expenses </td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">4. Net Profit ( 2 – 3) </td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+          
+
+
+        </div>
+    </div>
+    {{-- Fifth Page End --}}
+    
+
+    {{-- Sixth Page Start --}}
+    <div class="w-[795px] h-[1123px] mx-auto bg-yellow-300">
+        <div class="mx-8 flex flex-col pt-8 gap-2 border border-2 border-black">
+            <div>
+                <p class="font-bold text-center underline">Schedule-4</p>
+                <p class="font-medium text-center">(Particulars of Income from Business)</p>
+            </div>
+            <div class="flex justify-between items-center gap-2 mx-auto">
+                <span class="font-semibold">Name of the Taxpayer: .......................................</span>
+                <span>TIN:</span>
+                <table class="table-fixed border-collapse border border-black">
+                    <tr>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black text-center">-</td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black text-center">-</td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="flex justify-start">
+                <div class="w-1/2">
+                    <p>Name of Business:</p>
+                </div>
+                <div class="w-1/2">
+                    <p>Nature of Business:</p>
+                </div>
+            </div>            
+
+            <div>
+                <div class="flex justify-between font-semibold">
+                    <div>
+                        <p>Address of Business:</p>
+                    </div>                    
+                </div>
+                <table class="w-full border-collapse border border-black text-xs font-medium">
+                    <thead >
+                        <th class="border border-black px-2 py-1">Summary of Income</th>
+                        <th class="border border-black px-2 py-1">Amount in Taka</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-black px-2 py-1">1. Sales / Turnover  / Receipt</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">2. Gross Profit</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">3. General, Administrative, Selling and Other Expenses </td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">4. Bad Debt Expense</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">5. Net Profit ( 2 – 3)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div>
+                <table class="w-full border-collapse border border-black text-xs font-medium">
+                    <thead >
+                        <th class="border border-black px-2 py-1">Summary of Balance Sheet</th>
+                        <th class="border border-black px-2 py-1">Amount in Taka</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-black px-2 py-1">6. Cash and Bank Balance</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">7. Inventory</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">8. Fixed Assets</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">9. Other Assets</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">10.Total Assets ( 6 + 7 + 8 + 9)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">11. Opening Capital</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">12. Net Profit</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">13. Drawing during the Income Year</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">14. Closing Capital (11 + 12 – 13)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">15. Liabilities</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">16. Total Capital & Liabilities (14 + 15)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">9. Other Assets</td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+          
+            <div>
+                <div>
+                    <p class="font-bold text-center underline">Schedule-5</p>
+                    <p class="font-medium text-center">(Particulars of Investment Tax Credit)</p>
+                </div>
+                <div class="flex justify-between items-center gap-2 mx-auto">
+                    <span class="font-semibold">Name of the Taxpayer: .......................................</span>
+                    <span>TIN:</span>
+                    <table class="table-fixed border-collapse border border-black">
+                        <tr>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black text-center">-</td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black text-center">-</td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                        </tr>
+                    </table>
+                </div>                          
+    
+                <div>
+                    <div class="flex justify-between font-semibold">
+                        <div>
+                            <p>Particulars of Rebatable Investment</p>
+                        </div>                    
+                    </div>
+                    <table class="w-full border-collapse border border-black text-xs font-medium">
+                        <thead >
+                            <th class="border border-black px-2 py-1">Summary of Income</th>
+                            <th class="border border-black px-2 py-1 min-w-40">Amount in Taka</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border border-black px-2 py-1">1. Life Insurance Premium or Contractual Deferred Annuity Paid in Bangladesh </td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">2. Contribution to Deposit Pension Scheme</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">3. Investment in Government Securities, Unit Certificate, Mutual Fund, ETF or Joint Investment Scheme Unit Certificate</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">4. Investment in Securities listed with Approved Stock Exchange</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">5. Contribution to Provident Fund to which Provident Fund Act, 1925 applies</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">6. Self & Employer’s Contribution to Recognized Provident Fund</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">7. Contribution to Super Annuation Fund</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">8. Contribution to Benevolent Fund / Group Insurance Premium</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">9. Contribution to Zakat Fund</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">10. Others, if any (provide detail)</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">11. Total Investment (aggregate of 1 to 10)</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">12. Amount of Tax Rebate</td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    {{-- Sixth Page End --}}
+
+
+        {{-- Seventh Page Start --}}
+        <div class="w-[795px] h-[1123px] mx-auto bg-red-300">
+            <div class="mx-8 flex flex-col gap-4 border border-2 border-black">
+                <div>
+                    <p class="text-end pr-8">IT- 10BB (2023)</p>
+                </div>
+                <div>
+                    <p class="font-bold text-center">Statement of Expenses Relating to Lifestyle</p>
+                    <p class="font-medium text-center underline">(For Individual Person)</p>
+                </div>
+                <div class="flex justify-between items-center gap-2 mx-auto">
+                    <span class="font-semibold">Name of the Taxpayer: .......................................</span>
+                    <span>TIN:</span>
+                    <table class="table-fixed border-collapse border border-black">
+                        <tr>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black text-center">-</td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black text-center">-</td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <!-- Table for Expenditure -->
+                <div>
+                    <table class="w-full border-collapse border border-black text-xs font-medium">
+                        <thead>
+                            <th class="border border-black px-2 py-1 max-w-12">Serial No. </th>
+                            <th class="border border-black px-2 py-1">Particulars of Expenditure </th>
+                            <th class="border border-black px-2 py-1 max-w-28">Amount of Taka</th>
+                            <th class="border border-black px-2 py-1 max-w-28">Comments </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-center">1.</td>
+                                <td class="border border-black px-2 py-1">Personal and family fooding, clothing and other essentials</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>                        
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-center">2.</td>
+                                <td class="border border-black px-2 py-1">Housing Expense</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-center">3.</td>
+                                <td class="border border-black px-2 py-1">Personal Transport Expense </td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-center">4.</td>
+                                <td class="border border-black px-2 py-1">Utility Expense (Electricity, Gas, Water, Telephone, Mobile, Internet etc. Bills)</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-center">5.</td>
+                                <td class="border border-black px-2 py-1">Education Expense</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-center">6.</td>
+                                <td class="border border-black px-2 py-1">Personal Expense for Local and Foreign Travel, Vacation etc.</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-center">7.</td>
+                                <td class="border border-black px-2 py-1">Festival and Other Special Expense</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-center">8.</td>
+                                <td class="border border-black px-2 py-1">Tax Deducted / Collected at Source (with TS on Profit of Sanchaypatra) and Tax & Surcharge Paid based on Tax Return of Last Year)  </td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-center">9.</td>
+                                <td class="border border-black px-2 py-1">Interest Paid on Personal Loan Received from Institution & Other Source </td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-center"></td>
+                                <td class="border border-black px-2 py-1 text-end">Total:</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>                            
+                        </tbody>
+                    </table>
+                </div>
+    
+                <div>
+                    <p class="text-center font-bold underline">Vetification</p>
+                    <p class="mx-10"><span class="ml-10">I</span> solemnly declare that to the best of my knowledge and belief the information given in this IT-10BB (2023) is correct and complete. </p>
+                    <p class="mt-20 text-end pr-24">Name & signature of the Taxpayer</p>
+                    <p class="text-end pr-24">Date: ....................</p>
+                </div>
+              
+    
+    
+              
+    
+    
+            </div>
+        </div>
+        {{-- Seventh Page End --}}
 
 
 </body>
