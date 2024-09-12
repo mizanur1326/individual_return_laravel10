@@ -1194,17 +1194,169 @@
                     <p class="text-center font-bold underline">Vetification</p>
                     <p class="mx-10"><span class="ml-10">I</span> solemnly declare that to the best of my knowledge and belief the information given in this IT-10BB (2023) is correct and complete. </p>
                     <p class="mt-20 text-end pr-24">Name & signature of the Taxpayer</p>
-                    <p class="text-end pr-24">Date: ....................</p>
+                    <p class="text-end pr-52">Date: ....................</p>
                 </div>
-              
-    
-    
-              
-    
-    
             </div>
         </div>
         {{-- Seventh Page End --}}
+
+        {{-- Eight Page Start --}}
+        <div class="w-[795px] h-[1123px] mx-auto bg-purple-300">
+            <div class="mx-8 flex flex-col gap-4 border border-2 border-black">
+                <div>
+                    <p class="text-end pr-8">IT- 10BB (2023)</p>
+                </div>
+                <div>
+                    <p class="font-bold text-center">Statement of Assets, Liabilities and Expenses (as on .........................................)</p>
+                </div>
+                <div class="border border-2 border-black">
+                    <p class="text-center font-bold">To Whom It May Concern</p>
+                    <ul class="px-6 list-disc">
+                        <li>All Public Servants. </li>
+                        <li>If the amount of Total Asset at home and abroad exceeds Taka 40,00,000</li>
+                        <li>The amount of Total Asset does not exceed Tk. 40,00,000 but owns a Motor Car in any time or Invested in any House Popery or Apartment within the City Corporation area or Owns Assets outside Bangladesh or being a Shareholder Director of a Company. </li>
+                        <li>Every Non-Bangladeshi and Non-Resident Bangladesh Natural Person shall submit the statement only in respect of Assets Located in Bangladesh.</li>
+                    </ul>
+
+                </div>
+                <div class="flex justify-between items-center gap-2 mx-auto">
+                    <span class="font-semibold">Name of the Taxpayer: .......................................</span>
+                    <span>TIN:</span>
+                    <table class="table-fixed border-collapse border border-black">
+                        <tr>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black text-center">-</td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black text-center">-</td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <!-- Table for IT-10B -->
+                <div>
+                    <table class="w-full border-collapse border border-black text-xs font-medium">
+                        <thead>
+                            <th class="border border-black px-2 py-1 text-start">1. Sources of Fund:</th>
+                            <th class="border border-black px-2 py-1 max-w-24">Amount (Tk.)</th>
+                            <th class="border border-black px-2 py-1 max-w-24">Amount of Taka</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border border-black px-2 py-1 pl-8">(a) Total Income Shown in Return (Sl. No. 11 of Statement of Total Income)</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 pl-8">(b) Tax Exempted Income (Pls see Instruction Page)</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 pl-8">(c) Receipt of Gift and Others</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-end">Total Source of Fund:</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">2. Net Wealth as on Last Date of Previous Income Year</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">3. Sum of Source of Fund and Previous Year’s Net Wealth (1 +2)</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">4.</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 pl-8">(a)Expense relating to Lifestyle (as per IT-10BB)</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 pl-8">(b) Gift / Expenses / Loss Not Mentioned  in IT-10BB</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-end">Total Expense and Loss:</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">5. Net Wealth at the Last Date of this Financial Year  (3 – 4)</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1">6. Personal Liabilities Outside Business</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 pl-8">(a) Institutional Liabilities</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 pl-8">(b) Non-Institutional Liabilities</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 pl-8">(c) Other Liabilities</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1 text-end">Total Liabilities Outside Business:</td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                                <td class="border border-black px-2 py-1"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+    
+                <div>
+                    <p class="text-center font-bold underline">Vetification</p>
+                    <p class="mx-10"><span class="ml-10">I</span> solemnly declare that to the best of my knowledge and belief the information given in this IT-10BB (2023) is correct and complete. </p>
+                    <p class="mt-20 text-end pr-24">Name & signature of the Taxpayer</p>
+                    <p class="text-end pr-52">Date: ....................</p>
+                </div>
+            </div>
+        </div>
+        {{-- Eight Page End --}}
 
 
 </body>
