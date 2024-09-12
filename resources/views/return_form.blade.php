@@ -17,7 +17,7 @@
             <h1 class="font-bold">National Board of Revenue</h1>
         </div>
         <div>
-            <h1 class="font-bold text-center underline">www.nbr.gov.bd</h1>
+            <p class="font-bold text-center underline">www.nbr.gov.bd</p>
         </div>
         {{-- Table Section --}}
         <div class="mx-8 flex justify-around items-center my-6">
@@ -166,8 +166,8 @@
     <div class="w-[795px] h-[1123px] mt-10 mx-auto bg-red-300 pt-10">
         <div class="mx-8 flex flex-col gap-4 p-8 border border-2 border-black">
             <div>
-                <h1 class="font-bold text-center">Statement of Income and Tax during the Income Year ended on
-                    ..........................</h1>
+                <p class="font-bold text-center">Statement of Income and Tax during the Income Year ended on
+                    ..........................</p>
             </div>
             <div>
                 <p class="font-semibold">Name of the Taxpayer: ……………………………………………………………………....</p>
@@ -386,6 +386,272 @@
         </div>
     </div>
     {{-- Third Page End --}}
+
+    
+
+    {{-- Fourth Page Start --}}
+    <div class="w-[795px] h-[1123px] mx-auto bg-red-300">
+        <div class="mx-8 flex flex-col gap-4 p-8 border border-2 border-black">
+            <div>
+                <p class="font-bold text-center">Schedule 1</p>
+                <p class="font-medium text-center">Particulars of Income from Employment</p>
+                <p class="font-medium">a. This part is applicable for employees receiving salary under government pay scale.</p>
+            </div>
+            <div class="flex justify-between items-center gap-2 mx-auto">
+                <span class="font-semibold">Name of the Taxpayer: .......................................</span>
+                <span>TIN:</span>
+                <table class="table-fixed border-collapse border border-black">
+                    <tr>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black text-center">-</td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black text-center">-</td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                        <td class="w-6 h-8 border border-black"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Table for Govt. Employees -->
+            <div>
+                <table class="w-full border-collapse border border-black text-xs font-medium">
+                    <thead>
+                        <th class="border border-black px-2 py-1">Particulars</th>
+                        <th class="border border-black px-2 py-1 max-w-28">Total Amount (Taka)</th>
+                        <th class="border border-black px-2 py-1 max-w-28">Exempted Amount (Taka)</th>
+                        <th class="border border-black px-2 py-1 max-w-28">Taxable  Amount (Taka)</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-black px-2 py-1">1. Basic pay</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">2. Arrear Pay (if not included in taxable income earlier)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">3. Special allowance</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">4. House Rent allowance </td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">5. Medical allowance</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">6. Conveyance allowance</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">7. Festival allowance</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">8. Support Staff allowance</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">9. Leave allowance</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">10. Honorarium / Reward</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">11. Overtime allowances </td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">12. Bangla Noboborsho allowances</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">13. Interest accrued on Provident Fund</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">14. Lump Grant</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">15. Gratuity</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">16. Others, if any (provide detail)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">17. Total </td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            {{-- Table for Non-Govt Employees --}}
+            <div>
+                <p class="text-xs font-semibold">b. This part is applicable for employees other than employees receiving salary under government pay scale.</p>
+                <div class="flex justify-between items-center gap-2 mx-auto mb-2 mt-2">
+                    <span class="font-semibold">Name of the Taxpayer: .......................................</span>
+                    <span>TIN:</span>
+                    <table class="table-fixed border-collapse border border-black">
+                        <tr>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black text-center">-</td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black text-center">-</td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                            <td class="w-6 h-8 border border-black"></td>
+                        </tr>
+                    </table>
+                </div>
+                <table class="w-full border-collapse border border-black text-xs font-medium">
+                    <thead>
+                        <th class="border border-black px-2 py-1">Particulars</th>
+                        <th class="border border-black px-2 py-1 max-w-28">Income (Taka)</th>
+                        <th class="border border-black px-2 py-1 max-w-28">Income (Taka)</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-black px-2 py-1">1. Basic pay</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">2. Allowances</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-black px-2 py-1">3. Advance / Arrear Salary</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">4. Gratuity, Annuity, Pension or similar benefit</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">5. Perquisites</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">6. Receipt in lieu of or in addition to Salary or Wages</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">7. Income from Employee’s Share Scheme</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">8. Accommodation Facility </td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">9. Transport Facility</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">10. Any other Facility provided by Employer</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">11. Employer’s Contribution to Recognized Provident Fund</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">12. Others, if any (provide detail)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">13. Total Salary Received (aggregate of 1 to 12)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">14. Exempted Amount (as per Part 1 of 6th Schedule)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="border border-black px-2 py-1">15. Total Income from Salary (13 – 14)</td>
+                            <td class="border border-black px-2 py-1"></td>
+                            <td class="border border-black px-2 py-1"></td>
+                        </tr>                        
+                    </tbody>
+                </table>
+            </div>
+
+
+          
+
+
+        </div>
+    </div>
+    {{-- Fourth Page End --}}
+
+
 </body>
 
 </html>
