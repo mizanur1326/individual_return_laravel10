@@ -22,7 +22,7 @@
         {{-- Table Section --}}
         <div class="mx-8 flex justify-around items-center my-6">
             <div>
-                <table class="table-auto border-collapse border-2 border-black">
+                <table class="table-auto border-collapse border border-black">
                     <thead>
                         <tr>
                             <th class="border border-black p-1" colspan="2">For Office Use</th>
@@ -50,7 +50,7 @@
             </div>
         </div>
         {{-- Personal Details --}}
-        <div class="mx-8 flex flex-col gap-4 p-8 border border-2 border-black">
+        <div class="mx-8 flex flex-col gap-4 p-8 border border-black">
             <div>
                 <p>1. Name of the Taxpayer:
                     …….........................................................................................................
@@ -103,16 +103,16 @@
                 <span class="mr-20">9. Date of Birth (DD MM YYYY)</span>
                 <table class="table-fixed border-collapse border border-black">
                     <tr>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black text-center">-</td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black text-center">-</td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black text-center">-</td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black text-center">-</td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
                     </tr>
                 </table>
             </div>
@@ -164,32 +164,34 @@
 
     {{-- Second Page Start --}}
     <div class="w-[795px] h-[1123px] mt-10 mx-auto bg-red-300 pt-10">
-        <div class="mx-8 flex flex-col gap-4 p-8 border border-2 border-black">
+        <div class="mx-8 flex flex-col gap-4 p-8 ">
             <div>
                 <p class="font-bold text-center">Statement of Income and Tax during the Income Year ended on
                     ..........................</p>
             </div>
+            <div class="flex justify-between">
             <div>
-                <p class="font-semibold">Name of the Taxpayer: ……………………………………………………………………....</p>
+                <p class="font-semibold">Name of the Taxpayer: ...............................</p>
             </div>
             <div class="flex justify-center items-center gap-2 mx-auto">
                 <span>TIN:</span>
                 <table class="table-fixed border-collapse border border-black">
                     <tr>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black text-center">-</td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black text-center">-</td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
-                        <td class="w-8 h-8 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black text-center">-</td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black text-center">-</td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
+                        <td class="w-6 h-6 border border-black"></td>
                     </tr>
                 </table>
+            </div>
             </div>
 
             <!-- Table for Income Details -->
@@ -320,7 +322,7 @@
 
     {{-- Third Page Start --}}
     <div class="w-[795px] h-[1123px] mt-10 mx-auto bg-green-300 pt-10">
-        <div class="mx-8 flex flex-col gap-4 p-8 border border-2 border-black">
+        <div class="mx-8 flex flex-col gap-4 p-8 ">
             <!-- Table for Income Details -->
             <div>
                 <div class="flex justify-between font-semibold">
@@ -368,7 +370,7 @@
                 <p class="text-center font-semibold">List of Documents Furnished with this Return</p>
                 <textarea class="w-full h-60 border border-black"></textarea>
             </div>
-            <div>
+            <div class="mt-20">
                 <p class="text-center underline">Verification</p>
                 <p class="leading-loose"><span class="ml-10">I</span> .........................................................father/husband........................................................................................                         TIN: ........................................................ Solemnly declare that to the best of my knowledge and belief the information given in this return and statements and documents annexed herewith is correct and complete. </p>
             </div>
@@ -391,7 +393,7 @@
 
     {{-- Fourth Page Start --}}
     <div class="w-[795px] h-[1123px] mx-auto bg-red-300">
-        <div class="mx-8 flex flex-col gap-4 border border-2 border-black">
+        <div class="mx-8 flex flex-col gap-4">
             <div>
                 <p class="font-bold text-center underline">Schedule 1</p>
                 <p class="font-medium text-center">Particulars of Income from Employment</p>
@@ -654,7 +656,7 @@
 
     {{-- Fifth Page Start --}}
     <div class="w-[795px] h-[1123px] mx-auto bg-purple-300">
-        <div class="mx-8 flex flex-col gap-4 p-8 border border-2 border-black">
+        <div class="mx-8 flex flex-col gap-4 p-8">
             <div>
                 <p class="font-bold text-center underline">Schedule 2</p>
                 <p class="font-medium text-center">(Particulars of Income from Rent)</p>
@@ -857,7 +859,7 @@
 
     {{-- Sixth Page Start --}}
     <div class="w-[795px] h-[1123px] mx-auto bg-yellow-300">
-        <div class="mx-8 flex flex-col pt-12 gap-2 border border-2 border-black">
+        <div class="mx-8 flex flex-col pt-12 gap-2 ">
             <div>
                 <p class="font-bold text-center underline">Schedule-4</p>
                 <p class="font-medium text-center">(Particulars of Income from Business)</p>
@@ -1087,7 +1089,7 @@
 
     {{-- Seventh Page Start --}}
     <div class="w-[795px] h-[1123px] mx-auto bg-red-300">
-        <div class="mx-8 flex flex-col pt-16 gap-4 border border-2 border-black">
+        <div class="mx-8 flex flex-col pt-16 gap-4">
             <div>
                 <p class="text-end pr-8">IT- 10BB (2023)</p>
             </div>
@@ -1190,8 +1192,8 @@
                 </table>
             </div>
 
-            <div>
-                <p class="text-center font-bold underline">Vetification</p>
+            <div class="mt-20">
+                <p class="text-center font-bold underline">Verification</p>
                 <p class="mx-10"><span class="ml-10">I</span> solemnly declare that to the best of my knowledge and belief the information given in this IT-10BB (2023) is correct and complete. </p>
                 <p class="mt-20 ml-96">Name & signature of the Taxpayer</p>
                 <p class="ml-96">Date: ....................</p>
@@ -1201,15 +1203,15 @@
     {{-- Seventh Page End --}}
 
     {{-- Eight Page Start --}}
-    <div class="w-[795px] mx-auto bg-purple-300">
-        <div class="mx-8 flex flex-col pt-24 gap-4 border border-2 border-black">
+    <div class="w-[795px] mx-auto mt-6 bg-purple-300">
+        <div class="mx-8 flex flex-col  gap-4">
             <div>
                 <p class="text-end pr-8">IT- 10BB (2023)</p>
             </div>
             <div>
                 <p class="font-bold text-center">Statement of Assets, Liabilities and Expenses (as on .........................................)</p>
             </div>
-            <div class="border border-2 border-black">
+            <div class="border border-black">
                 <p class="text-center font-bold">To Whom It May Concern</p>
                 <ul class="px-6 list-disc">
                     <li>All Public Servants. </li>
@@ -1480,8 +1482,8 @@
                 </table>
             </div>
 
-            <div>
-                <p class="text-center font-bold underline">Vetification</p>
+            <div class="mt-20">
+                <p class="text-center font-bold underline">Verification</p>
                 <p class="mx-10"><span class="ml-10">I</span>solemnly declare that to the best of my knowledge and belief the information given in this IT-10B (2023) is correct and complete.</p>
                 <p class="mt-20 ml-96">Name & signature of the Taxpayer</p>
                 <p class="ml-96">Date: ....................</p>
@@ -1491,12 +1493,12 @@
     {{-- Eight Page End --}}
 
     {{-- Nineth Page Start --}}
-    <div class="w-[795px] mx-auto bg-green-300">
-        <div class="mx-8 flex flex-col pt-24 gap-4 border border-2 border-black">
+    <div class="w-[795px] mx-auto mt-96 bg-green-300">
+        <div class="mx-8 flex flex-col pt-24 gap-4">
             <div>
                 <p class="text-center font-bold underline">Instructions to fill up the Return Form</p>
             </div>
-            <div class="border border-2 border-black">
+            <div class="border border-black px-4">
                 <p class="font-bold underline">Instructions:</p>
                 <ol class="px-6 list-decimal">
                     <li>This Return of Income shall be Signed and Verified by the Taxpayer or his Authorized Representative as prescribed in the Income Tax Act, 2023.</li>
@@ -1522,6 +1524,11 @@
                             <li>Name of the company, address & TIN if the Taxpayer is a director.</li>
                         </ol>
                     </li>
+                    <li>Assets and liabilities of self, spouse (if she/he is not a Taxpayer), minor children and dependant(s) to be shown in the IT-10B (2023).</li>
+                    <li>Signature is mandatory for all Taxpayer or his / her authorized representative.</li>
+                    <li>For Individual Person, signature is also mandatory in IT-10B (2023) & IT-10BB (2023).</li>
+                    <li>If needed, please use separate sheet. </li>
+                    
                 </ol>
 
             </div>
