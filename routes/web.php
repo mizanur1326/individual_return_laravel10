@@ -17,3 +17,7 @@ Route::get('/', function () {
     return view('return_form');
 });
 
+// Frontend Routes
+Route::get('/first_salary_return', function(){
+    return view('frontend/first_salary_return');
+});
