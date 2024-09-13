@@ -7,7 +7,12 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      listStyleType: {
+        'lower-alpha': 'lower-alpha', // a, b, c, ...
+        'upper-alpha': 'upper-alpha', // A, B, C, ...
+      },
+    },
   },
   plugins: [],
 }

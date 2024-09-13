@@ -1490,6 +1490,46 @@
     </div>
     {{-- Eight Page End --}}
 
+    {{-- Nineth Page Start --}}
+    <div class="w-[795px] mx-auto bg-green-300">
+        <div class="mx-8 flex flex-col pt-24 gap-4 border border-2 border-black">
+            <div>
+                <p class="text-center font-bold underline">Instructions to fill up the Return Form</p>
+            </div>
+            <div class="border border-2 border-black">
+                <p class="font-bold underline">Instructions:</p>
+                <ol class="px-6 list-decimal">
+                    <li>This Return of Income shall be Signed and Verified by the Taxpayer or his Authorized Representative as prescribed in the Income Tax Act, 2023.</li>
+                    <li><span class="underline">Enclose where applicable:</span>
+                        <ol class="list-lower-alpha pl-12">
+                            <li>Salary statement for salary; Bank statement for interest; Certificate for interest on savings instruments; Rent agreement, receipts of municipal tax & land revenue, statement of house property loan interest, insurance premium for house property income; Statement of Professional income as per IT Rule-8; Copy of assessment/ income statement & balance sheet for partnership income;  Documents of capital gain; Dividend warrant for dividend income; Statement of other income; Documents in support of investments in savings certificates, LIP, DPS, Zakat, stock/share etc.</li>
+                            <li>Depreciation Chart claiming depreciation as per the Income Tax Act, 2023;</li>
+                            <li>Computation of Income according to the Income Tax Act, 2023.</li>
+                        </ol>
+                    </li>
+                    <li><span class="underline">Enclose Separate Statement for:</span>
+                        <ol class="list-lower-alpha pl-12">
+                            <li>any income of the spouse of the Taxpayer (if she/he is not an Taxpayer), minor children and dependent;</li>
+                            <li>Tax exempted / Tax free Income.</li>
+                            <li>Income Exempted from Tax declared under Part 1 of the Sixth Schedule of the Income Tax Act, 2023.</li>
+                        </ol>
+                    </li>
+                    <li>Documents furnished to support the declaration should be signed by the Taxpayer or his/her authorized representative.</li>
+                    <li><span class="underline">Furnish the following information:</span>
+                        <ol class="list-lower-alpha pl-12">
+                            <li>Name, address & TIN of the partners if the Taxpayer is a firm;</li>
+                            <li>Name of firm, address & TIN if the Taxpayer is a partner;</li>
+                            <li>Name of the company, address & TIN if the Taxpayer is a director.</li>
+                        </ol>
+                    </li>
+                </ol>
+
+            </div>
+           
+        </div>
+    </div>
+    {{-- Mineth Page End --}}
+
 
 </body>
 
