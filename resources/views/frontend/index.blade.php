@@ -15,7 +15,7 @@
         <div class="bg-white p-8 rounded-lg shadow-lg w-96">
             <!-- Flash message section -->
             @if (session('success'))
-                <div class="alert alert-success">
+                <div class="alert text-green-500 text-center font-bold bg-black">
                     {{ session('success') }}
                 </div>
             @endif

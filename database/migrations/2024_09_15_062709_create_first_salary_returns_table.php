@@ -15,15 +15,15 @@ return new class extends Migration
             $table->id();  // Primary key
             $table->string('name');
             $table->string('nid')->unique();
-            $table->date('dob');
-            $table->string('etin')->unique();
-            $table->string('circle');
-            $table->string('taxes_zone');
-            $table->string('assessment_year'); // Default could be handled in the form or controller
+            $table->date('dob')->nullable();;
+            $table->string('etin')->nullable();;
+            $table->string('circle')->nullable();;
+            $table->string('taxes_zone')->nullable();;
+            $table->string('assessment_year')->nullable();; // Default could be handled in the form or controller
             $table->string('spouse')->nullable(); // Nullable because it’s optional
-            $table->string('address');
+            $table->string('address')->nullable();;
             $table->string('telephone')->nullable();
-            $table->string('mobile');
+            $table->string('mobile')->nullable();;
             $table->string('email')->nullable();
             $table->decimal('past_savings', 15, 2)->nullable();  // Store money values with precision
             $table->integer('ornaments')->nullable();  // Store quantity as integer
