@@ -31,9 +31,11 @@ class FirstSalaryReturnController extends Controller
         // Validate the request data
     $validatedData = $request->validate([
         'name' => 'required|string|max:255',
-        'nid' => 'nullable|string|max:20',
+        // 'nid' => 'nullable|string|max:20',
+        'nid' => 'nullable|string|max:20|unique:first_salary_returns,nid', // Adding unique validation rule
         'dob' => 'nullable|date',
-        'etin' => 'nullable|string|max:20',
+        // 'etin' => 'nullable|string|max:20',
+        'etin' => 'nullable|digits:12',
         'circle' => 'nullable|string|max:50',
         'taxes_zone' => 'nullable|string|max:50',
         'assessment_year' => 'nullable|string|max:10',
