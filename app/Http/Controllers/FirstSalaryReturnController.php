@@ -51,10 +51,13 @@ class FirstSalaryReturnController extends Controller
     ]);
 
     // Store the validated data in the database
-    FirstSalaryReturn::create($validatedData);
+    $firstSalaryReturn = FirstSalaryReturn::create($validatedData);
 
     // Redirect back with a success message
-    return redirect()->route('home')->with('success', 'Salary return successfully stored!');
+    // return redirect()->route('home')->with('success', 'Salary return successfully stored!');
+
+    // Pass the stored data to the view
+    return view('frontend/firstSalaryReturn/return_form', ['data' => $firstSalaryReturn]);
     }
 
     /**
