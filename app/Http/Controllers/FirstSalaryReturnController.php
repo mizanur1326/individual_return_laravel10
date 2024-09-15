@@ -31,16 +31,16 @@ class FirstSalaryReturnController extends Controller
         // Validate the request data
     $validatedData = $request->validate([
         'name' => 'required|string|max:255',
-        'nid' => 'required|string|max:20',
-        'dob' => 'required|date',
-        'etin' => 'required|string|max:20',
-        'circle' => 'required|string|max:50',
-        'taxes_zone' => 'required|string|max:50',
-        'assessment_year' => 'required|string|max:10',
+        'nid' => 'nullable|string|max:20',
+        'dob' => 'nullable|date',
+        'etin' => 'nullable|string|max:20',
+        'circle' => 'nullable|string|max:50',
+        'taxes_zone' => 'nullable|string|max:50',
+        'assessment_year' => 'nullable|string|max:10',
         'spouse' => 'nullable|string|max:255',
-        'address' => 'required|string|max:255',
+        'address' => 'nullable|string|max:255',
         'telephone' => 'nullable|string|max:15',
-        'mobile' => 'required|string|max:15',
+        'mobile' => 'nullable|string|max:15',
         'email' => 'nullable|email|max:255',
         'past_savings' => 'nullable|numeric',
         'ornaments' => 'nullable|integer',
@@ -54,7 +54,7 @@ class FirstSalaryReturnController extends Controller
     FirstSalaryReturn::create($validatedData);
 
     // Redirect back with a success message
-    return redirect()->route('first-salary-return.index')->with('success', 'Salary return successfully stored!');
+    return redirect()->route('home')->with('success', 'Salary return successfully stored!');
     }
 
     /**

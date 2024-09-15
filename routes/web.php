@@ -21,7 +21,7 @@ Route::get('/return_form', function () {
 // Frontend Routes
 Route::get('/', function () {
     return view('frontend/index');
-});
+})->name('home');
 
 Route::get('/first-salary-return', [FirstSalaryReturnController::class, 'index'])->name('first-salary-return.index'); //it's for show all data from this table
 Route::get('/first-salary-return/create', [FirstSalaryReturnController::class, 'create'])->name('first-salary-return.create'); //it's for create return

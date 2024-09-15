@@ -24,31 +24,31 @@
                 <!-- NID -->
                 <div>
                     <label class="block font-bold mb-1" for="nid">NID</label>
-                    <input type="text" id="nid" name="nid" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                    <input type="text" id="nid" name="nid" class="w-full p-2 border border-gray-300 rounded-lg">
                 </div>
 
                 <!-- DOB -->
                 <div>
                     <label class="block font-bold mb-1" for="dob">Date of Birth</label>
-                    <input type="date" id="dob" name="dob" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                    <input type="date" id="dob" name="dob" class="w-full p-2 border border-gray-300 rounded-lg">
                 </div>
 
                 <!-- ETIN -->
                 <div>
                     <label class="block font-bold mb-1" for="etin">ETIN</label>
-                    <input type="text" id="etin" name="etin" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                    <input type="text" id="etin" name="etin" class="w-full p-2 border border-gray-300 rounded-lg">
                 </div>
 
                 <!-- Circle -->
                 <div>
                     <label class="block font-bold mb-1" for="circle">Circle</label>
-                    <input type="text" id="circle" name="circle" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                    <input type="text" id="circle" name="circle" class="w-full p-2 border border-gray-300 rounded-lg">
                 </div>
 
                 <!-- Taxes Zone -->
                 <div>
                     <label class="block font-bold mb-1" for="taxes_zone">Taxes Zone</label>
-                    <input type="text" id="taxes_zone" name="taxes_zone" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                    <input type="text" id="taxes_zone" name="taxes_zone" class="w-full p-2 border border-gray-300 rounded-lg">
                 </div>
 
                 <!-- Assessment Year (default) -->
@@ -66,7 +66,7 @@
                 <!-- Address -->
                 <div>
                     <label class="block font-bold mb-1" for="address">Address</label>
-                    <input type="text" id="address" name="address" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                    <input type="text" id="address" name="address" class="w-full p-2 border border-gray-300 rounded-lg">
                 </div>
 
                 <!-- Telephone -->
@@ -78,7 +78,7 @@
                 <!-- Mobile -->
                 <div>
                     <label class="block font-bold mb-1" for="mobile">Mobile</label>
-                    <input type="text" id="mobile" name="mobile" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                    <input type="text" id="mobile" name="mobile" class="w-full p-2 border border-gray-300 rounded-lg">
                 </div>
 
                 <!-- Email -->
